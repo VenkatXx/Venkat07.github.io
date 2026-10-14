@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f8f5">
+  <meta name="description" content="Project overview: Smart RFID Access Control and Cloud Attendance Management System by Sridharan Venkatesh.">
+  <title>Smart RFID Access Control — Sridharan Venkatesh</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header"><nav class="nav wrap" aria-label="Main navigation"><a class="brand" href="index.html" aria-label="Portfolio home">SV<span>_</span></a><div class="nav-links" style="display:flex"><a href="index.html#about">About</a><a href="index.html#projects">Projects</a><a class="nav-cta" href="index.html#contact">Let’s connect ↗</a></div></nav></header>
+  <main>
+    <section class="section wrap">
+      <div class="section-label"><span>PROJECT / 02</span><span>EMBEDDED SYSTEMS · IOT</span></div>
+      <p class="eyebrow" style="margin-top:42px">ESP32 · RFID · CLOUD DATABASE</p>
+      <h1 style="font-size:clamp(3rem,7vw,6rem);max-width:1000px">Smart RFID Access Control <span>& Cloud Attendance.</span></h1>
+      <p class="hero-intro" style="max-width:800px">An embedded access-control concept that combines RFID credential reading, physical access control, and cloud-based attendance records.</p>
+      <div class="project-visual rfid-visual" style="height:300px;margin-top:36px;border:1px solid var(--line)"><span class="project-count">SYSTEM OVERVIEW</span><div class="rfid-rings"><div class="rfid-card"><span class="rfid-mark">RF</span><span class="rfid-lines"></span><span class="rfid-wave">)))</span></div></div><span class="visual-foot">READ · VALIDATE · LOG</span></div>
+      <div class="about-grid" style="margin-bottom:55px">
+        <div><p class="eyebrow">01 / OVERVIEW</p><h2 style="font-size:clamp(2.2rem,4vw,3.4rem)">Access made <span>traceable.</span></h2></div>
+        <div class="about-copy"><p>The system uses an ESP32 microcontroller and an MFRC522 RFID reader connected over SPI to read access credentials. When a credential is validated, the ESP32 can control a relay module for a physical locking mechanism and send entry timestamps to a Firebase database over Wi-Fi.</p><p>The intended workflow brings together local hardware interaction and remote attendance logging. Detailed wiring, firmware, screenshots, test results, and implementation notes can be added as the project documentation is uploaded.</p></div>
+      </div>
+      <div class="section-label"><span>02 / SYSTEM COMPONENTS</span><span>TECHNOLOGY STACK</span></div>
+      <div class="skills-grid" style="margin-top:24px">
+        <article class="skills-card"><span class="skills-number">01</span><h3>Controller</h3><div class="skill-pills"><span>ESP32</span><span>Embedded C/C++</span></div></article>
+        <article class="skills-card"><span class="skills-number">02</span><h3>Credential reader</h3><div class="skill-pills"><span>MFRC522 RFID</span><span>SPI</span></div></article>
+        <article class="skills-card"><span class="skills-number">03</span><h3>Access & records</h3><div class="skill-pills"><span>Relay module</span><span>Wi-Fi</span><span>Firebase</span></div></article>
+      </div>
+      <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:42px"><a class="button button-dark" href="index.html#projects">← Back to all projects</a><a class="button button-light" href="index.html#contact">Ask me about this project ↗</a></div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="wrap footer-inner"><a class="brand" href="index.html">SV<span>_</span></a><p>Designed with purpose. Built with curiosity.</p><p>© <span id="year">2026</span> Sridharan Venkatesh</p></div></footer>
+  <script>const year=document.querySelector("#year");if(year)year.textContent=String(new Date().getFullYear());</script>
+</body>
+</html>
