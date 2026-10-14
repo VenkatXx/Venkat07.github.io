@@ -190,3 +190,39 @@ h1 span,h2 span{color:#ff454e}
 .project-link:hover{border-color:#ff303b;box-shadow:0 14px 34px #ff303b12}
 @media(max-width:650px){.nav-links{background:#0b0b0f;border-color:#303038}.project-card{background:#111116}}
 @media(prefers-reduced-motion:reduce){.project-link:hover{transform:none}}
+
+
+/* POLISH PASS — sharper technical atmosphere and responsive interactions */
+:root{color-scheme:dark;--accent:#ff303b;--accent-soft:#ff6a72}
+::selection{background:#ff303b;color:#fff}
+body{background-image:radial-gradient(ellipse at 12% 8%,#ff303b0b,transparent 32%),radial-gradient(ellipse at 88% 42%,#ff303b08,transparent 30%)}
+.site-header{box-shadow:0 8px 30px #00000014}
+.brand{transition:color .2s ease}
+.brand:hover{color:var(--accent)}
+.hero{position:relative}
+.hero-copy{position:relative;z-index:1}
+.hero-visual{box-shadow:0 22px 70px #00000030}
+.chip{transition:transform .35s ease,box-shadow .35s ease}
+.hero-visual:hover .chip{transform:rotate(-2deg) translateY(-3px);box-shadow:0 22px 48px #0009,0 0 36px #ff303b20}
+.ticker-track{animation:ticker-drift 36s linear infinite;width:max-content;min-width:100%;justify-content:flex-start}
+.ticker:hover .ticker-track{animation-play-state:paused}
+@keyframes ticker-drift{from{transform:translateX(0)}to{transform:translateX(-25%)}}
+.project-card{transition:transform .22s ease,border-color .22s ease,box-shadow .22s ease}
+.project-link:hover{transform:translateY(-5px)}
+.project-visual{isolation:isolate}
+.project-visual:after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(135deg,#ff303b09,transparent 45%,#ff303b05)}
+.project-content h3{transition:color .2s ease}
+.project-link:hover .project-content h3{color:#ff454e}
+.contact-section{position:relative;overflow:hidden}
+.contact-section:after{content:"";position:absolute;right:-140px;top:90px;width:360px;height:360px;border:1px solid #ff303b20;border-radius:50%;box-shadow:0 0 0 35px #ff303b08,0 0 0 70px #ff303b05;pointer-events:none}
+.contact-wrap{position:relative;z-index:1}
+.button-green,.button-dark{transition:transform .18s ease,background .18s ease,box-shadow .18s ease}
+.button-green:hover,.button-dark:hover{box-shadow:0 8px 24px #ff303b2b}
+.contact-detail:hover{border-color:#ff303b;color:#ff737a}
+@media(max-width:800px){.hero{gap:35px}.about-grid,.education-grid{gap:42px}}
+@media(max-width:650px){.ticker-track{animation-duration:28s}.hero-visual{min-height:340px}.project-link:hover{transform:translateY(-2px)}.contact-section:after{right:-250px;top:160px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.ticker-track{animation:none}.project-card,.chip,.button{transition:none}.project-link:hover{transform:none}}
+
+.reveal-ready{opacity:0;transform:translateY(14px);transition:opacity .55s ease,transform .55s ease}
+.reveal-ready.is-visible{opacity:1;transform:translateY(0)}
+@media(prefers-reduced-motion:reduce){.reveal-ready{opacity:1;transform:none;transition:none}}
