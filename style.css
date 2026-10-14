@@ -226,3 +226,86 @@ body{background-image:radial-gradient(ellipse at 12% 8%,#ff303b0b,transparent 32
 .reveal-ready{opacity:0;transform:translateY(14px);transition:opacity .55s ease,transform .55s ease}
 .reveal-ready.is-visible{opacity:1;transform:translateY(0)}
 @media(prefers-reduced-motion:reduce){.reveal-ready{opacity:1;transform:none;transition:none}}
+
+
+/* FOREST GREEN + GRAPHITE — professional portfolio refresh */
+:root{
+  color-scheme:dark;
+  --ink:#edf3ef;--muted:#a4b1a9;--line:#303e35;--paper:#101612;
+  --white:#18211b;--soft:#141c17;--dark:#0b100d;--lime:#8edbb0;
+  --accent:#7fd5a2;--accent-soft:#a0e6bc;
+  --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,monospace;
+  --sans:"Inter",ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+}
+html{scrollbar-color:#426a51 #101612}
+body{background-color:var(--paper);color:var(--ink);font-family:var(--sans);letter-spacing:-.012em;background-image:radial-gradient(ellipse at 12% 8%,#3c8d5b18,transparent 34%),radial-gradient(ellipse at 88% 42%,#6680710c,transparent 32%)}
+h1,h2,h3,.brand,.nav-cta,.button{letter-spacing:-.035em}
+h1,h2{letter-spacing:-.055em}
+a:focus-visible,button:focus-visible,.project-link:focus-visible{outline-color:#8edbb0}
+::selection{background:#347b50;color:#f5fff8}
+.site-header{background:rgba(13,19,15,.93);border-color:#2c3a30;box-shadow:0 8px 30px #0003}
+.brand span,.nav-links>a:not(.nav-cta):hover,.green-mark,.project-link:hover .project-content h3{color:#8edbb0}
+.brand:hover{color:#a0e6bc}
+.nav-links{color:#c2cec5}
+.nav-cta{border-color:#43574a;color:#edf3ef}
+.nav-cta:hover{border-color:#8edbb0;color:#a0e6bc;background:#1a2a20}
+.menu-toggle{color:#edf3ef;border-color:#43574a}
+.eyebrow{color:#a0b7a7}
+.pulse{background:#8edbb0;box-shadow:0 0 0 4px #8edbb025,0 0 16px #8edbb055}
+h1 span,h2 span,.hero-intro em{color:#8edbb0}
+.hero-description,.about-copy,.project-content>p:not(.project-note),.education-intro{color:#b0bdb4}
+.button-dark,.button-green{background:#347b50;color:#f7fff9;border:1px solid #4c9b68}
+.button-dark:hover,.button-green:hover{background:#419361;box-shadow:0 8px 24px #4eae702b}
+.button-light{border-color:#435047;color:#edf3ef;background:#171f19}
+.button-light:hover{background:#202c23;border-color:#79c995}
+.hero-meta{border-color:#344238;color:#a5b3a9}
+.hero-visual{background:#141d17;border-color:#35463a;box-shadow:0 22px 70px #0004}
+.visual-top,.visual-bottom,.visual-caption{color:#aab9ae}
+.chip-scene{background-color:#111a14;background-image:linear-gradient(#8edbb010 1px,transparent 1px),linear-gradient(90deg,#8edbb010 1px,transparent 1px)}
+.chip{background:#1b2920;border-color:#466b50;box-shadow:0 18px 42px #0006,0 0 28px #70c98b13;color:#a0e6bc}
+.chip:before{border-color:#538363}.chip-sub{color:#b7d9c1}.chip-core{background:#8edbb0;box-shadow:0 0 12px #8edbb0}
+.chip-pin{background:#639773}.pin-1,.pin-2,.pin-3,.pin-4{box-shadow:0 18px #639773,0 36px #639773,0 54px #639773,0 72px #639773}
+.trace{border-color:#527b5d}.node{background:#8edbb0;box-shadow:0 0 12px #8edbb099}
+.ticker{background:#244d33;color:#eaf8ee;border-color:#315f41}
+.ticker-track{color:#eaf8ee}
+.section-label{border-color:var(--line);color:#a7b5aa}
+.inline-link{color:#edf3ef;border-color:#75c58e}
+.inline-link:hover{color:#a0e6bc}
+.stats-grid,.stat{border-color:var(--line)}.stat span{color:#a4b1a9}
+.section-dark,.contact-section,.site-footer{background:#0b100d;color:#edf3ef}
+.section-label-dark{border-color:#303e35;color:#a4b1a9}
+.section-title-row>p{color:#a4b1a9}
+.timeline,.timeline-item{border-color:#303e35}.timeline-date{color:#a0c8ad}
+.role-index,.company,.contact-eyebrow,.contact-wrap h2 span{color:#8edbb0}
+.role-description{color:#b8c5bc}.mini-tags span{border-color:#3c5041;color:#d0ded4;background:#151f18}
+.project-card,.skills-card{background:#151e18;border-color:#303e35}
+.project-card:hover,.project-link:hover{border-color:#6ebd88;box-shadow:0 14px 34px #4eae7010}
+.air-visual,.rfid-visual{background-color:#121b15;background-image:linear-gradient(#8edbb00b 1px,transparent 1px),linear-gradient(90deg,#8edbb00b 1px,transparent 1px);background-size:24px 24px}
+.project-count,.visual-foot{color:#a5cbb0}
+.air-orbit,.rfid-rings,.rfid-rings:before,.rfid-rings:after{border-color:#4c7658}
+.sensor-device,.rfid-card{background:#1b2920;border-color:#45694f;box-shadow:0 16px 35px #0006,0 0 25px #8edbb010}
+.sensor-screen{background:#ccebd6;color:#163c25}
+.sensor-vent{background:repeating-linear-gradient(90deg,#77c994 0 4px,transparent 4px 8px)}
+.sensor-brand{color:#a0e6bc}.rfid-card{color:#a0e6bc}
+.rfid-lines{background:repeating-linear-gradient(180deg,#639773 0 1px,transparent 1px 5px)}
+.project-meta{color:#aebcb2}
+.project-tags span{background:#1b2a20;border-color:#3b5944;color:#c8ead2}
+.project-note{color:#a4b1a9;border-color:#303e35}
+.section-soft{background:#131a15}
+.education-list,.education-item{border-color:#303e35}
+.edu-year{color:#aebcb2}.education-item p{color:#a4b1a9}.edu-note{color:#8edbb0}
+.skills-grid{border-color:#303e35}
+.skills-number{color:#8edbb0}
+.skill-pills span{border-color:#3a4c3e;color:#d0ded4;background:#151e18}
+.contact-intro{color:#b8c5bc}
+.contact-detail{color:#edf3ef;border-color:#526157}
+.contact-detail:hover{border-color:#8edbb0;color:#a0e6bc}
+.contact-email,.footer-inner p{color:#a4b1a9}
+.site-footer{border-color:#303e35}
+.skip-link{background:#347b50;color:#fff}
+.project-visual:after{background:linear-gradient(135deg,#8edbb009,transparent 45%,#8edbb005)}
+.contact-section:after{border-color:#8edbb020;box-shadow:0 0 0 35px #8edbb008,0 0 0 70px #8edbb005}
+.button-green,.button-dark{transition:transform .18s ease,background .18s ease,box-shadow .18s ease}
+.button-green:hover,.button-dark:hover{box-shadow:0 8px 24px #4eae702b}
+@media(max-width:650px){.nav-links{background:#101713;border-color:#303e35}.project-card{background:#151e18}}
+@media(prefers-reduced-motion:reduce){.project-link:hover{transform:none}}
