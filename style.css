@@ -129,3 +129,64 @@ h2 span{color:#969b8d}
 .project-link:focus-visible{outline:3px solid #85ad3f;outline-offset:4px}
 .project-link .project-content h3{transition:color .2s ease}
 .project-link:hover .project-content h3{color:#648b31}
+
+
+/* BLACK + RED ELECTRONICS ENGINEERING THEME */
+:root{--ink:#f4f4f6;--muted:#a4a5ad;--line:#303038;--paper:#0b0b0f;--white:#141419;--soft:#111116;--dark:#08080b;--lime:#ff303b;--mono:"DM Mono",ui-monospace,SFMono-Regular,monospace;--sans:"Manrope",Inter,ui-sans-serif,system-ui,sans-serif}
+body{background:var(--paper);color:var(--ink)}
+a:focus-visible,button:focus-visible,.project-link:focus-visible{outline-color:#ff5961}
+.site-header{background:rgba(8,8,11,.92);border-color:#29292f}
+.brand span,.nav-links>a:not(.nav-cta):hover,.green-mark,.project-link:hover .project-content h3{color:#ff303b}
+.nav-links{color:#c0c0c7}
+.nav-cta{border-color:#45454e;color:#f5f5f7}
+.nav-cta:hover{border-color:#ff303b;color:#ff5961}
+.menu-toggle{color:#f4f4f6;border-color:#45454e}
+.eyebrow{color:#a9a9b2}.pulse{background:#ff303b;box-shadow:0 0 0 4px #ff303b24,0 0 16px #ff303b65}
+h1 span,h2 span{color:#ff454e}
+.hero-intro em{color:#ff454e}
+.hero-description,.about-copy,.project-content>p:not(.project-note),.education-intro{color:#a8a8b2}
+.button-dark{background:#ff303b;color:#fff}.button-dark:hover{background:#d91e29}
+.button-light{border-color:#41414a;color:#f4f4f6;background:#111116}.button-light:hover{background:#1a1a21;border-color:#ff303b}
+.hero-meta{border-color:#303038;color:#93939d}
+.hero-visual{background:#101015;border-color:#34343d}
+.visual-top,.visual-bottom{color:#a1a1ad}
+.chip-scene{background-color:#0d0d12;background-image:linear-gradient(#ff303b12 1px,transparent 1px),linear-gradient(90deg,#ff303b12 1px,transparent 1px)}
+.chip{background:#17171d;border-color:#3d2025;box-shadow:0 18px 42px #0009,0 0 28px #ff303b12;color:#ff737a}
+.chip:before{border-color:#9b343b}.chip-sub{color:#d48a8e}.chip-core{background:#ff303b;box-shadow:0 0 12px #ff303b}
+.chip-pin{background:#a64a50}.pin-1,.pin-2{box-shadow:0 18px #a64a50,0 36px #a64a50,0 54px #a64a50,0 72px #a64a50}
+.pin-3,.pin-4{box-shadow:0 18px #a64a50,0 36px #a64a50,0 54px #a64a50,0 72px #a64a50}
+.trace{border-color:#773039}.node{background:#ff303b;box-shadow:0 0 12px #ff303b99}.visual-caption{color:#a6a6b0}
+.ticker{background:#ff303b;color:#fff;border-color:#ff303b}.ticker-track{color:#fff}
+.section-label{border-color:var(--line);color:#a2a2ad}
+.inline-link{color:#f4f4f6;border-color:#ff303b}.inline-link:hover{color:#ff626a}
+.stats-grid{border-color:var(--line)}.stat{border-color:var(--line)}.stat span{color:#a4a4ad}
+.section-dark,.contact-section,.site-footer{background:#08080b;color:#f4f4f6}
+.section-label-dark{border-color:#303038;color:#a4a4ad}
+.section-title-row>p{color:#a4a4ad}
+.timeline,.timeline-item{border-color:#303038}.timeline-date{color:#c4a3a6}
+.role-index,.company,.contact-eyebrow,.contact-wrap h2 span{color:#ff454e}
+.role-description{color:#b7b7c0}.mini-tags span{border-color:#42424b;color:#d0d0d7}
+.project-card{background:#111116;border-color:#303038}
+.project-card:hover{border-color:#ff303b}
+.air-visual,.rfid-visual{background-color:#111116;background-image:linear-gradient(#ff303b0c 1px,transparent 1px),linear-gradient(90deg,#ff303b0c 1px,transparent 1px);background-size:24px 24px}
+.project-count,.visual-foot{color:#c3a1a5}
+.air-orbit{border-color:#74323a}.sensor-device{background:#17171d;border-color:#3c2529;box-shadow:0 16px 35px #0008,0 0 25px #ff303b12}
+.sensor-screen{background:#ffd7d9;color:#4a1116}.sensor-vent{background:repeating-linear-gradient(90deg,#ff5961 0 4px,transparent 4px 8px)}.sensor-brand{color:#e8a2a6}
+.rfid-rings,.rfid-rings:before,.rfid-rings:after{border-color:#78323a}
+.rfid-card{background:#17171d;border-color:#80333b;color:#ff777e;box-shadow:0 16px 35px #0008,0 0 22px #ff303b12}
+.rfid-lines{background:repeating-linear-gradient(180deg,#b64a52 0 1px,transparent 1px 5px)}
+.project-meta{color:#aaaab4}
+.project-tags span{background:#1a1518;border-color:#40272c;color:#f0b8bc}
+.project-note{color:#9a9aa4;border-color:#303038}
+.section-soft{background:#101015}
+.education-list,.education-item{border-color:#303038}.edu-year{color:#aaaab4}.education-item p{color:#a4a4ad}.edu-note{color:#ff626a}
+.skills-grid{border-color:#303038}
+.skills-card{background:#111116;border-color:#303038}
+.skills-number{color:#ff626a}.skill-pills span{border-color:#3a3a44;color:#d0d0d7}
+.contact-intro{color:#b7b7c0}.button-green{background:#ff303b;color:#fff}.button-green:hover{background:#d91e29}
+.contact-detail{color:#f0f0f4;border-color:#595961}.contact-email{color:#aaaab4}
+.site-footer{border-color:#303038}.footer-inner p{color:#a4a4ad}
+.skip-link{background:#ff303b;color:white}
+.project-link:hover{border-color:#ff303b;box-shadow:0 14px 34px #ff303b12}
+@media(max-width:650px){.nav-links{background:#0b0b0f;border-color:#303038}.project-card{background:#111116}}
+@media(prefers-reduced-motion:reduce){.project-link:hover{transform:none}}
