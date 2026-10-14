@@ -309,3 +309,53 @@ h1 span,h2 span,.hero-intro em{color:#8edbb0}
 .button-green:hover,.button-dark:hover{box-shadow:0 8px 24px #4eae702b}
 @media(max-width:650px){.nav-links{background:#101713;border-color:#303e35}.project-card{background:#151e18}}
 @media(prefers-reduced-motion:reduce){.project-link:hover{transform:none}}
+
+
+/* WINTER EDITION — midnight navy, glacier blue and cool silver */
+:root{color-scheme:dark;--ink:#edf4fb;--muted:#a6b6c8;--line:#2d4053;--paper:#0c1420;--white:#141f2d;--soft:#101a28;--dark:#080f19;--lime:#a8d8ff;--accent:#a8d8ff;--accent-soft:#d2eaff;--mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,monospace;--sans:"Inter",ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+html{scrollbar-color:#537b9c #0c1420}
+body{background-color:#0c1420;color:#edf4fb;background-image:radial-gradient(ellipse at 12% 8%,#6bb8f018,transparent 34%),radial-gradient(ellipse at 88% 42%,#9dbbd00c,transparent 32%)}
+::selection{background:#477ca7;color:#fff}
+a:focus-visible,button:focus-visible,.project-link:focus-visible{outline-color:#a8d8ff}
+.site-header{background:rgba(8,15,25,.94);border-color:#2d4053}
+.brand span,.nav-links>a:not(.nav-cta):hover,.green-mark,.project-link:hover .project-content h3{color:#a8d8ff}
+.brand:hover{color:#d2eaff}.nav-links{color:#c4d2e0}.nav-cta{border-color:#43576c;color:#edf4fb}
+.nav-cta:hover{border-color:#a8d8ff;color:#d2eaff;background:#17283a}.menu-toggle{color:#edf4fb;border-color:#43576c}
+.eyebrow{color:#a8bfd4}.pulse{background:#a8d8ff;box-shadow:0 0 0 4px #a8d8ff25,0 0 16px #a8d8ff55}
+h1 span,h2 span,.hero-intro em,.role-index,.company,.contact-eyebrow,.contact-wrap h2 span{color:#a8d8ff}
+.hero-description,.about-copy,.project-content>p:not(.project-note),.education-intro{color:#b2c1d1}
+.button-dark,.button-green{background:#3f7097;color:#f6fbff;border:1px solid #608fb4}
+.button-dark:hover,.button-green:hover{background:#5186af;box-shadow:0 8px 24px #5ba5df2b}
+.button-light{border-color:#43566a;color:#edf4fb;background:#141f2d}.button-light:hover{background:#1c2b3d;border-color:#8fcaff}
+.hero-meta{border-color:#314357;color:#a8b8c9}.hero-visual{background:#111d2b;border-color:#354a60;box-shadow:0 22px 70px #0005}
+.visual-top,.visual-bottom,.visual-caption{color:#afc1d2}
+.chip-scene{background-color:#0f1b29;background-image:linear-gradient(#a8d8ff10 1px,transparent 1px),linear-gradient(90deg,#a8d8ff10 1px,transparent 1px)}
+.chip{background:#1a2b3d;border-color:#496b88;box-shadow:0 18px 42px #0007,0 0 28px #6bb8f013;color:#d2eaff}
+.chip:before{border-color:#6b91b1}.chip-sub{color:#b8d6ed}.chip-core{background:#a8d8ff;box-shadow:0 0 12px #a8d8ff}
+.chip-pin{background:#83a8c6}.pin-1,.pin-2,.pin-3,.pin-4{box-shadow:0 18px #83a8c6,0 36px #83a8c6,0 54px #83a8c6,0 72px #83a8c6}
+.trace{border-color:#557d9e}.node{background:#a8d8ff;box-shadow:0 0 12px #a8d8ff99}
+.ticker{background:#203d56;color:#eff8ff;border-color:#355b79}.ticker-track{color:#eff8ff}
+.section-label{border-color:var(--line);color:#a9bacb}.inline-link{color:#edf4fb;border-color:#8fcaff}.inline-link:hover{color:#d2eaff}
+.stats-grid,.stat{border-color:var(--line)}.stat span{color:#a6b6c8}
+.section-dark,.contact-section,.site-footer{background:#080f19;color:#edf4fb}.section-label-dark{border-color:#2d4053;color:#a6b6c8}
+.section-title-row>p{color:#a6b6c8}.timeline,.timeline-item{border-color:#2d4053}.timeline-date{color:#a8cce9}
+.role-description{color:#bac8d7}.mini-tags span{border-color:#3b5065;color:#d1dfed;background:#111c2a}
+.project-card,.skills-card{background:#121e2c;border-color:#2d4053}
+.project-card:hover,.project-link:hover{border-color:#77b6e8;box-shadow:0 14px 34px #5ba5df12}
+.air-visual,.rfid-visual{background-color:#101b29;background-image:linear-gradient(#a8d8ff0b 1px,transparent 1px),linear-gradient(90deg,#a8d8ff0b 1px,transparent 1px);background-size:24px 24px}
+.project-count,.visual-foot{color:#a8cce9}.air-orbit,.rfid-rings,.rfid-rings:before,.rfid-rings:after{border-color:#4d718f}
+.sensor-device,.rfid-card{background:#1a2b3d;border-color:#456986;box-shadow:0 16px 35px #0007,0 0 25px #a8d8ff10}
+.sensor-screen{background:#d8edff;color:#17334b}.sensor-vent{background:repeating-linear-gradient(90deg,#8fcaff 0 4px,transparent 4px 8px)}
+.sensor-brand,.rfid-card{color:#d2eaff}.rfid-lines{background:repeating-linear-gradient(180deg,#83a8c6 0 1px,transparent 1px 5px)}
+.project-meta{color:#afc0d1}.project-tags span{background:#17283a;border-color:#3b5872;color:#d1e8fb}
+.project-note{color:#a6b6c8;border-color:#2d4053}.section-soft{background:#101a28}
+.education-list,.education-item{border-color:#2d4053}.edu-year{color:#afc0d1}.education-item p{color:#a6b6c8}.edu-note,.skills-number{color:#a8d8ff}
+.skills-grid{border-color:#2d4053}.skill-pills span{border-color:#384e63;color:#d1dfed;background:#121e2c}
+.contact-intro{color:#bac8d7}.contact-detail{color:#edf4fb;border-color:#52677c}.contact-detail:hover{border-color:#a8d8ff;color:#d2eaff}
+.contact-email,.footer-inner p{color:#a6b6c8}.site-footer{border-color:#2d4053}.skip-link{background:#3f7097;color:#fff}
+.project-visual:after{background:linear-gradient(135deg,#a8d8ff09,transparent 45%,#a8d8ff05)}
+.contact-section:after{border-color:#a8d8ff20;box-shadow:0 0 0 35px #a8d8ff08,0 0 0 70px #a8d8ff05}
+.button-green,.button-dark{transition:transform .18s ease,background .18s ease,box-shadow .18s ease}
+.button-green:hover,.button-dark:hover{box-shadow:0 8px 24px #5ba5df2b}
+@media(max-width:650px){.nav-links{background:#0c1420;border-color:#2d4053}.project-card{background:#121e2c}}
+@media(prefers-reduced-motion:reduce){.project-link:hover{transform:none}}
