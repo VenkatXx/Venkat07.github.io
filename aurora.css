@@ -1,0 +1,59 @@
+/* Aurora Violet + Ice Blue — vibrant neon theme */
+:root{color-scheme:dark;--ink:#F3F1FF;--muted:#B7B9D1;--line:#2A2D49;--paper:#090B18;--white:#11142A;--soft:#0E1123;--dark:#070914;--lime:#9B8CFF;--mono:"IBM Plex Mono",ui-monospace,monospace;--sans:"Inter",ui-sans-serif,system-ui,sans-serif}
+html{color-scheme:dark;background:#090B18}
+body{background:#090B18!important;color:#F3F1FF!important}
+.site-header{background:rgba(7,9,20,.94)!important;border-color:#292C49!important}
+.nav-links{color:#C9CBE1!important}
+.brand span,.nav-links>a:not(.nav-cta):hover,.green-mark,.project-link:hover .project-content h3{color:#78DFFF!important}
+.nav-cta{border-color:#424568!important;color:#F3F1FF!important}
+.nav-cta:hover{border-color:#9B8CFF!important;color:#B8AEFF!important}
+.menu-toggle{color:#F3F1FF!important;border-color:#424568!important}
+a:focus-visible,button:focus-visible,.project-link:focus-visible{outline:3px solid #78DFFF!important;outline-offset:4px}
+.eyebrow,.role-index,.company,.contact-eyebrow,.contact-wrap h2 span,.edu-note{color:#9B8CFF!important}
+.pulse{background:#78DFFF!important;box-shadow:0 0 0 4px #78DFFF35,0 0 20px #78DFFFAA!important}
+h1 span,h2 span,.hero-intro em{color:#9B8CFF!important;text-shadow:0 0 24px #9B8CFF2b}
+.hero-description,.about-copy,.project-content>p:not(.project-note),.education-intro{color:#B7B9D1!important}
+.button-dark,.button-green{background:#7865F5!important;border:1px solid #A99EFF!important;color:#fff!important;box-shadow:0 0 22px #7865F540}
+.button-dark:hover,.button-green:hover{background:#8C7CFF!important;box-shadow:0 0 28px #9B8CFF80!important}
+.button-light{border:1px solid #4A4E78!important;background:#11142A!important;color:#F3F1FF!important}
+.button-light:hover{background:#191D39!important;border-color:#78DFFF!important}
+.hero-meta{border-color:#2A2D49!important;color:#A7AAC8!important}
+.hero-visual{background:#0D1125!important;border-color:#34385E!important;box-shadow:inset 0 0 36px #9B8CFF12}
+.visual-top,.visual-bottom{color:#B9BCD6!important}
+.chip-scene{background-color:#0B0E20!important;background-image:linear-gradient(#78DFFF18 1px,transparent 1px),linear-gradient(90deg,#78DFFF18 1px,transparent 1px)!important;background-size:24px 24px}
+.chip{background:#11162D!important;border-color:#5547A0!important;box-shadow:0 18px 42px #0009,0 0 36px #9B8CFF40!important;color:#D9D3FF!important}
+.chip:before{border-color:#9B8CFF!important}.chip-sub{color:#B8B4E8!important}
+.chip-core{background:#78DFFF!important;box-shadow:0 0 10px #78DFFF,0 0 24px #78DFFFAA!important}
+.chip-pin{background:#8D8FC5!important}.pin-1,.pin-2{box-shadow:0 18px #8D8FC5,0 36px #8D8FC5,0 54px #8D8FC5,0 72px #8D8FC5!important}.pin-3,.pin-4{box-shadow:0 18px #8D8FC5,0 36px #8D8FC5,0 54px #8D8FC5,0 72px #8D8FC5!important}
+.trace{border-color:#6559B7!important}.node{background:#78DFFF!important;box-shadow:0 0 12px #78DFFF,0 0 24px #78DFFF99!important}.visual-caption{color:#A9BFE0!important}
+.ticker{background:#191536!important;color:#DCD7FF!important;border-color:#5547A0!important;box-shadow:0 0 24px #7865F52b}.ticker-track{color:#DCD7FF!important}
+.section-label{border-color:#2A2D49!important;color:#AEB1D0!important}
+.inline-link{color:#F3F1FF!important;border-color:#78DFFF!important}.inline-link:hover{color:#78DFFF!important}
+.stats-grid,.stat{border-color:#2A2D49!important}.stat span{color:#B7B9D1!important}
+.section-dark,.contact-section,.site-footer{background:#070914!important;color:#F3F1FF!important}
+.section-label-dark{border-color:#2A2D49!important;color:#AEB1D0!important}
+.section-title-row>p{color:#AEB1D0!important}
+.timeline,.timeline-item{border-color:#2A2D49!important}.timeline-date{color:#B8B9D4!important}
+.role-description{color:#B7B9D1!important}.mini-tags span{border-color:#3A3D61!important;color:#D1D2E8!important}
+.project-card{background:#101329!important;border-color:#2D3152!important}
+.project-card:hover,.project-link:hover{border-color:#9B8CFF!important;box-shadow:0 0 28px #7865F540,0 14px 34px #0006!important}
+.air-visual,.rfid-visual{background-color:#0D1125!important;background-image:linear-gradient(#78DFFF15 1px,transparent 1px),linear-gradient(90deg,#78DFFF15 1px,transparent 1px)!important;background-size:24px 24px}
+.project-count,.visual-foot{color:#B8B9D8!important}
+.air-orbit{border-color:#6559B7!important}
+.sensor-device{background:#151A32!important;border-color:#6256A7!important;box-shadow:0 16px 35px #0008,0 0 28px #9B8CFF40!important}
+.sensor-screen{background:#D9F7FF!important;color:#111A34!important;box-shadow:0 0 18px #78DFFF65}
+.sensor-vent{background:repeating-linear-gradient(90deg,#78DFFF 0 4px,transparent 4px 8px)!important}.sensor-brand{color:#C7C2FF!important}
+.rfid-rings,.rfid-rings:before,.rfid-rings:after{border-color:#6E62C6!important}
+.rfid-card{background:#151A32!important;border-color:#6559B7!important;color:#D9D3FF!important;box-shadow:0 16px 35px #0008,0 0 25px #9B8CFF40!important}
+.rfid-lines{background:repeating-linear-gradient(180deg,#78DFFF 0 1px,transparent 1px 5px)!important}
+.project-meta{color:#B8BAD4!important}.project-tags span{background:#171831!important;border-color:#393D67!important;color:#C8C3FF!important}
+.project-note{color:#AEB1CA!important;border-color:#2A2D49!important}
+.section-soft{background:#0C0F20!important}
+.education-list,.education-item{border-color:#2A2D49!important}.edu-year{color:#B0B2CD!important}.education-item p{color:#B7B9D1!important}
+.skills-grid{border-color:#2A2D49!important}.skills-card{background:#101329!important;border-color:#2A2D49!important}
+.skills-number{color:#78DFFF!important}.skill-pills span{border-color:#393D61!important;color:#D3D5EC!important;background:#12162B!important}
+.contact-wrap h2 span{color:#78DFFF!important;text-shadow:0 0 25px #78DFFF50}
+.contact-intro{color:#B7B9D1!important}.contact-detail{color:#E0E3F7!important;border-color:#555A7E!important}.contact-detail:hover{color:#78DFFF!important;border-color:#78DFFF!important}
+.contact-email{color:#AEB2D1!important}.site-footer{border-color:#292C49!important}.footer-inner p{color:#A7AAC5!important}
+.project-link:hover .project-content h3{color:#78DFFF!important}
+@media(prefers-reduced-motion:no-preference){.pulse{animation:aurora-pulse 2.8s ease-in-out infinite}@keyframes aurora-pulse{0%,100%{box-shadow:0 0 0 4px #78DFFF20,0 0 12px #78DFFF55}50%{box-shadow:0 0 0 7px #9B8CFF25,0 0 22px #78DFFFA0}}}
